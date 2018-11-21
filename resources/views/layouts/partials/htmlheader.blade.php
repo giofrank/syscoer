@@ -2,6 +2,8 @@
     <meta charset="UTF-8">
     <title> COER - @yield('htmlheader_title', 'UNDAC') </title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+
+    <link href="{{ asset('/img/favicon.ico') }}" rel="shortcut icon">
     <!-- Bootstrap 3.3.4 -->
     <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
     <!-- Font Awesome Icons -->

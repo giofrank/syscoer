@@ -36,24 +36,21 @@
             </li>
             @endrole
             <li class="treeview">
-                <a href="#"><i class='fa fa-pie-chart'></i> <span>PROYECTO</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <a href="#"><i class='fa fa-pie-chart'></i> <span>EMERGENCIAS</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">Crear</a></li>
-                    <li><a href="#">Reportar Avance</a></li>
+                    <li><a href="{{ url('listemergency') }}">Listado</a></li>
                 </ul>
             </li>
             <li class="treeview">
-                <a href="#"><i class='fa fa-sitemap'></i> <span>DIRECCION</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <a href="#"><i class='fa fa-sitemap'></i> <span>OCURRENCIAS</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Emitir Resolución</a></li>
+                    <li><a href="#">Listado</a></li>
                 </ul>
             </li>
             <li class="treeview">
-                <a href="#"><i class='fa fa-sticky-note-o'></i> <span>EVALUACION</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <a href="#"><i class='fa fa-sticky-note-o'></i> <span>OPERACIONES</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#"></a>Avance de Proyectos</li>
+                    <li><a href="#">Perfil</a></li>
                 </ul>
             </li>
         </ul><!-- /.sidebar-menu -->

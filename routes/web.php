@@ -15,9 +15,17 @@ Route::get('/', function () {
     return redirect('/login');
 });
 
+// Route::Resource('school', 'SchoolController');
+
 Auth::routes();
 
 Route::group(['middleware' => 'auth'], function () {
+
+
+    Route::name('listEmergency')->get('/listemergency', 'EmergencyController@listEmergency');
+    Route::name('updateEmergency')->post('/upemergency', 'EmergencyController@updateEmergency');
+    Route::name('editEmergency')->post('/editemergency', 'EmergencyController@editEmergency'); 
+    Route::name('deleteEmergency')->post('/deleteReg', 'EmergencyController@deleteEmergency'); 
 	
 	Route::get('/home', 'HomeController@index');
     Route::get('/listado_usuarios', 'UsuariosController@listado_usuarios');
