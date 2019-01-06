@@ -142,8 +142,11 @@
                     <p>Centro de Operaciones Regional, del Gobierno Regional Pasco 2018.</p>
 
                     <div class="links">
-                      <div><a style="text-decoration: none;" href="{{ url('/register') }}">
+                      {{-- <div><a style="text-decoration: none;" href="{{ url('/register') }}">
                        Registrarte
+                     </a></div> --}}
+                     <div><a style="text-decoration: none;" href="http://coer-regionpasco.pe/">
+                       Ver Mapa
                      </a></div>
                     </div>
                   </div>

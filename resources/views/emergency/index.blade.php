@@ -119,7 +119,7 @@
                               <input type="number" class="form-control" id="phone" name="phone" placeholder="Telefono">
                             </div>
                           </div>
-                        <div class="row">
+                       {{--  <div class="row">
                             <div class="col-xs-6">
                                 <label for="lt"> Latitud</label>
                                 <input type="text" class="form-control input-sm" id="latitud" name="lt" placeholder="">
@@ -128,7 +128,7 @@
                                 <label for="lg"> Longuitud</label>
                                 <input type="text" class="form-control input-sm" id="longuitud" name="lg" placeholder="">
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-xs-7">

@@ -2,7 +2,7 @@
 <section class="content-header">
     <h1>
 
-        @yield('contentheader_title', 'Universidad Daniel Alcides Carrion')
+        @yield('contentheader_title', 'Centro de Operaciones de Emergencia Regional')
         <small>@yield('contentheader_description')</small>
     </h1>
     <ol class="breadcrumb">
