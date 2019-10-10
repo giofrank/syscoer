@@ -84,7 +84,7 @@ class EmergencyController extends Controller
             $e_update->name=$fuente;
             $e_update->cargo=$cargo;
             $e_update->phone=$phone;
-            $e_update->latitud=$latitud;
+            // $e_update->latitud=$latitud;
             $e_update->img_ico=$ico;
 
             if ($e_update->save()) {
@@ -124,7 +124,7 @@ class EmergencyController extends Controller
             $detail->name=$fuente;
             $detail->cargo=$cargo;
             $detail->phone=$phone;
-            $detail->latitud=$latitud;
+            // $detail->latitud=$latitud;
             $detail->img_ico=$ico;
 
             if ($detail->save()) {
